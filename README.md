@@ -74,3 +74,12 @@ Nginx server block for site1.local.
 Nginx server block for site2.local.
 
 ![site2cfg](screenshots/Site2cfg.png)
+
+
+##  What I learned
+
+- How Nginx server blocks work
+- Virtual hosting on a single IP
+- Domain routing using server_name
+- Linux service management (systemd)
+- Configuration validation using nginx -t
