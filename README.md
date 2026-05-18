@@ -52,25 +52,25 @@ Verification of correct configuration.
 ### 3. Site 1 working
 First virtual host response.
 
-![site1](screenshots/site1.png)
+![site1](screenshots/Site1.png)
 
 ---
 
 ### 4. Site 2 working
 Second virtual host response.
 
-![site2](screenshots/site2.png)
+![site2](screenshots/Site2.png)
 
 ---
 
 ### 5. Site 1 configuration
 Nginx server block for site1.local.
 
-![site1cfg](screenshots/site1cfg.png)
+![site1cfg](screenshots/Site1cfg.png)
 
 ---
 
 ### 6. Site 2 configuration
 Nginx server block for site2.local.
 
-![site2cfg](screenshots/site2cfg.png)
+![site2cfg](screenshots/Site2cfg.png)
