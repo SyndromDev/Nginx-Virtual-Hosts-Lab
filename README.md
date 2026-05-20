@@ -1,85 +1,85 @@
 # Nginx Virtual Hosts Lab (Ubuntu Linux)
 
-This project demonstrates how to configure Nginx virtual hosts (server blocks) on Ubuntu Linux.
+Этот проект демонстрирует, как настроить виртуальные хосты Nginx (блоки серверов) в Ubuntu Linux.
 
-It shows how multiple websites can be hosted on a single server using different domain names resolved via the hosts file.
+Он показывает, как можно разместить несколько веб-сайтов на одном сервере, используя разные доменные имена, разрешаемые через файл hosts.
 
-This setup simulates real-world hosting environments used in web hosting and system administration.
+Эта настройка имитирует реальные среды хостинга, используемые в веб-хостинге и системном администрировании.
 
----
+--
 
-##  Tech Stack
+## Технологический стек
 
 - Ubuntu Linux
-- Nginx Web Server
-- Local DNS (hosts file)
+- Веб-сервер Nginx
+- Локальный DNS (файл hosts)
 - HTML
 
 ---
 
-##  Goal
+## Цель
 
-Configure multiple websites on a single Nginx server using server_name directives and verify correct routing between them.
-
----
-
-##  Features
-
-- Nginx installation and configuration
-- Multiple virtual hosts (server blocks)
-- Local domain simulation via /etc/hosts
-- Service management and validation
-- Configuration testing with nginx -t
+Настроить несколько веб-сайтов на одном сервере Nginx, используя директивы server_name, и проверить правильность маршрутизации между ними.
 
 ---
 
-##  Screenshots
+## Возможности
 
-### 1. Nginx service status
-Shows that Nginx is running.
+- Установка и настройка Nginx
+- Несколько виртуальных хостов (блоков серверов)
+- Имитация локального домена через /etc/hosts
+- Управление и проверка сервисов
+- Тестирование конфигурации с помощью nginx -t
+
+---
+
+## Скриншоты
+
+### 1. Статус службы Nginx
+Показывает, что Nginx запущен.
 
 ![nginx-status](screenshots/nginx-status.png)
 
 ---
 
-### 2. Nginx configuration test
-Verification of correct configuration.
+### 2. Тестирование конфигурации Nginx
+Проверка правильности конфигурации.
 
 ![nginx-cfg](screenshots/nginx-cfg.png)
 
 ---
 
-### 3. Site 1 working
-First virtual host response.
+### 3. Сайт 1 работает
+Первый ответ виртуального хоста.
 
 ![site1](screenshots/Site1.png)
 
 ---
 
-### 4. Site 2 working
-Second virtual host response.
+### 4. Сайт 2 работает
+Ответ второго виртуального хоста.
 
 ![site2](screenshots/Site2.png)
 
 ---
 
-### 5. Site 1 configuration
-Nginx server block for site1.local.
+### 5. Конфигурация сайта 1
+Блок сервера Nginx для site1.local.
 
 ![site1cfg](screenshots/Site1cfg.png)
 
 ---
 
-### 6. Site 2 configuration
-Nginx server block for site2.local.
+### 6. Конфигурация сайта 2
+Блок сервера Nginx для site2.local.
 
 ![site2cfg](screenshots/Site2cfg.png)
 
 
-##  What I learned
+## Что я узнал
 
-- How Nginx server blocks work
-- Virtual hosting on a single IP
-- Domain routing using server_name
-- Linux service management (systemd)
-- Configuration validation using nginx -t
+- Как работают серверные блоки Nginx
+- Виртуальный хостинг на одном IP-адресе
+- Маршрутизация домена с использованием server_name
+- Управление службами Linux (systemd)
+- Проверка конфигурации с помощью nginx -t
